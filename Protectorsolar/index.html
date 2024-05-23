@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Proyector Solar</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            color: #663300;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #c97017;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+        .product-info {
+            margin: 20px;
+        }
+        .benefits {
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 20px;
+        }
+        .contact-form {
+            background-color: #dc8125;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+        .image-container img {
+            width: 1200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>LA ROCHE-POSAY</h1>
+    </div>
+    <div class="product-info">
+        <h2>Producto</h2>
+        <p>Aunque sea invierno o esté nublado, nuestra piel está expuesta diariamente a la radiación ultravioleta del sol y los rayos UV son muy nocivos para la piel. Son los principales culpables de la aparición de signos del envejecimiento: arrugas, manchas oscuras y piel flácida. Y, lo que es aún más preocupante, son los responsables de la mayoría de casos de cáncer de piel.</p>
+    </div>
+    <div class="image-container">
+        <img src="larocheposay-articlepage-acne-how-to-cleanse-and-care-for-oily-skin.webp"  alt="">
+    </div>
+    <div class="benefits">
+        <h2>Beneficios  y  especificaciones</h2>
+        <p>Protección de amplio espectro que protege la piel de los rayos UVA y UVB y ayuda a prevenir los daños causados por los infrarrojos A y la contaminación. Previene el daño celular, el fotoenvejecimiento, asi cómo otras afecciones de la piel inducidas por los rayos UV gracias a la tecnología DNA PROTECT TECH™.</p>
+    </div>
+    <video width="1200" height="400" controls>
+        <source src="Video.mp4.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    <div class="contact-form">
+        <h2>Contáctanos</h2>
+        <form action="/submit_form" method="post">
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Correo:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Mensaje:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
